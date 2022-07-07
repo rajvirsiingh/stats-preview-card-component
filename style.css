@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  background-color: hsl(233, 47%, 7%);
+  margin-top: 150px;
+}
+h2 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 0 10px 10px 0;
+
+  filter: brightness(70%) sepia(50%) hue-rotate(-110deg) saturate(500%)
+    contrast(1);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  margin: 50px 0;
+  line-height: 23.3px;
+}
+
+.center {
+  background-color: hsl(244, 38%, 16%);
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 10px;
+}
+.text {
+  padding: 20px 0 16px 20px;
+}
+.col {
+  display: inline-block;
+  margin: 15px;
+}
+.stats {
+  margin-bottom: 50px;
+}
+.col h2,
+.col p {
+  margin: 0;
+}
+.col p {
+  font-size: small;
+}
+@media (max-width: 1400px) {
+  body {
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 25px;
+  }
+  .text {
+    padding: 15px;
+  }
+  h2 {
+    margin-top: 15px;
+  }
+  .col {
+    display: block;
+  }
+}
+.attribution {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+.attribution a {
+  color: purple;
+}
